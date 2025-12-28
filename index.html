@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Sun | Software Engineering Portfolio</title>
+    <style>
+        :root {
+            --accent: #fe2c55; /* TikTok Red */
+            --bg: #0b0b0b;
+            --card-bg: #1a1a1a;
+            --text-main: #ffffff;
+            --text-dim: #a0a0a0;
+        }
+
+        body { 
+            font-family: 'Inter', 'Segoe UI', sans-serif; 
+            line-height: 1.6; 
+            color: var(--text-main); 
+            max-width: 1000px; 
+            margin: auto; 
+            padding: 40px 20px; 
+            background-color: var(--bg); 
+        }
+
+        header { 
+            text-align: center;
+            padding-bottom: 60px; 
+            border-bottom: 1px solid #333;
+            margin-bottom: 50px;
+        }
+
+        h1 { margin: 0; font-size: 3em; letter-spacing: -1px; }
+        .subtitle { font-size: 1.2em; color: var(--accent); font-weight: bold; text-transform: uppercase; margin-top: 10px; }
+        
+        .contact-links { margin-top: 20px; }
+        .contact-links a { color: var(--text-dim); text-decoration: none; margin: 0 10px; font-size: 0.9em; transition: 0.3s; }
+        .contact-links a:hover { color: var(--accent); }
+
+        h2 { font-size: 1.8em; margin-bottom: 30px; border-left: 4px solid var(--accent); padding-left: 15px; }
+
+        .project-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
+            gap: 25px; 
+        }
+
+        .project-card { 
+            background: var(--card-bg); 
+            padding: 30px; 
+            border-radius: 16px; 
+            border: 1px solid #2a2a2a;
+            transition: all 0.3s ease;
+        }
+
+        .project-card:hover { 
+            border-color: var(--accent);
+            transform: translateY(-8px);
+            box-shadow: 0 10px 30px rgba(254, 44, 85, 0.1);
+        }
+
+        .tag-container { margin-bottom: 15px; }
+        .tag { 
+            background: #333; 
+            color: var(--text-main);
+            padding: 5px 12px; 
+            border-radius: 6px; 
+            font-size: 0.7em; 
+            font-weight: 700; 
+            margin-right: 8px;
+        }
+
+        .result-badge { 
+            display: inline-block;
+            margin-top: 15px;
+            font-size: 0.85em;
+            color: #4ade80; /* Success Green */
+            font-weight: 600;
+        }
+
+        .btn { 
+            display: inline-block; 
+            margin-top: 20px; 
+            padding: 10px 20px; 
+            background: var(--accent); 
+            color: #fff; 
+            text-decoration: none; 
+            border-radius: 8px; 
+            font-weight: bold;
+            font-size: 0.9em;
+            transition: 0.3s;
+        }
+
+        .btn:hover { opacity: 0.9; transform: scale(1.05); }
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 16px;
+        }
+
+        .skill-group { flex: 1; min-width: 200px; }
+        .skill-group h4 { color: var(--accent); margin-bottom: 10px; }
+
+        section { margin-bottom: 80px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Jonathan Sun</h1>
+        <p class="subtitle">Software Engineering Intern</p>
+        <div class="contact-links">
+            <span>Castle Hill, NSW</span> | 
+            <span>0424487198</span> | 
+            <a href="mailto:Jonathan.sun848@gmail.com">Jonathan.sun848@gmail.com</a>
+        </div>
+    </header>
+
+    <section>
+        <h2>The Profile</h2>
+        <p style="color: var(--text-dim); font-size: 1.1em; max-width: 800px;">
+            Driven and detail-oriented Computer Science student at UNSW. 
+            I focus on bridging the gap between high-level systems programming in C 
+            and modern frontend development using React and TypeScript.
+        </p>
+    </section>
+
+    <section>
+        <h2>Technical Projects</h2>
+        <div class="project-grid">
+            
+            <div class="project-card">
+                <div class="tag-container"><span class="tag">C</span><span class="tag">PHYSICS</span></div>
+                <h3>Caverun (Boulder Dash)</h3>
+                <p style="color: var(--text-dim);">Built a grid-based engine with dynamic gravity shifts and visibility math. Focused on complex entity interaction.</p>
+                <span class="result-badge">High Distinction Result</span><br>
+                <a href="https://github.com/weez685/Boulder-Dash-replication" target="_blank" class="btn">Source Code →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="tag-container"><span class="tag">C</span><span class="tag">SYSTEMS</span></div>
+                <h3>Amusement Park Simulation</h3>
+                <p style="color: var(--text-dim);">Simulated busy park operations, optimizing data handling for visitor flow and attraction logic.</p>
+                <br>
+                <span class="result-badge">High Distinction Result</span><br>
+                <a href="https://github.com/weez685/Amusement-Park-simulation" target="_blank" class="btn">Source Code →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="tag-container"><span class="tag">TS</span><span class="tag">APIs</span></div>
+                <h3>Kahoot Simulation</h3>
+                <p style="color: var(--text-dim);">Developed back-end servers and APIs using TypeScript. Collaborated via GitHub in a team setting. (Not on GitHub yet)</p>
+                <span class="result-badge">Distinction Result</span><br>
+                <a href="https://github.com/weez685" target="_blank" class="btn">View GitHub →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="tag-container"><span class="tag">REACT</span><span class="tag">HTML</span></div>
+                <h3>Frontend Learning Lab</h3>
+                <p style="color: var(--text-dim);">Self-studying Python, HTML, CSS, React, etc to build responsive, high-performance user interfaces.</p>
+                <span class="result-badge">Active Self-Development</span><br>
+                <a href="https://github.com/weez685" target="_blank" class="btn">Track Progress →</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Skills & Languages</h2>
+        <div class="skills-container">
+            <div class="skill-group">
+                <h4>Coding</h4>
+                <p>C, JavaScript, TypeScript, Python, MIPS</p>
+            </div>
+            <div class="skill-group">
+                <h4>Tech</h4>
+                <p>React, APIs, GitHub, Data Structures</p>
+            </div>
+            <div class="skill-group">
+                <h4>Languages</h4>
+                <p>English, Mandarin, Japanese</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Real-World Impact</h2>
+        <div class="project-card">
+            <p><strong>JB HI-FI Sales Specialist:</strong> Achieved 150% of sales quota while communicating complex electronics to clients.</p>
+            <p><strong>Private Tutor:</strong> Mentored student to a 97.5 ATAR, achieving a 92 in Extension 2<Math></Math>.</p>
+        </div>
+    </section>
+
+</body>
+</html>
