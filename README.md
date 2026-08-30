@@ -35,6 +35,25 @@ Computer Science student at UNSW with a focus on systems programming in C and mo
 
 ---
 
+## 🎓 Coursework
+
+### ✅ Completed
+| Course | Name | Grade |
+|--------|------|-------|
+| COMP1511 | Programming Fundamentals | HD |
+| COMP1521 | Computer Systems Fundamentals | D |
+| COMP2521 | Data Structures & Algorithms | D |
+| COMP2511 | Object-Oriented Design | D |
+| COMP2041 | Shell & Scripting | C |
+
+### 📚 Upcoming
+| Course | Name |
+|--------|------|
+| COMP6080 | Web Front-End Programming |
+| COMP3121 | Algorithms & Programming Techniques |
+
+---
+
 ## 📫 Contact
 * **Email:** Jonathan.sun848@gmail.com
 * **Location:** Castle Hill, NSW
