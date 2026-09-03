@@ -40,10 +40,10 @@ Computer Science student at UNSW with a focus on systems programming in C and mo
 ### ✅ Completed
 | Course | Name | Grade |
 |--------|------|-------|
-| COMP1511 | Programming Fundamentals | HD |
+| COMP1511 | Programming Fundamentals | D |
 | COMP1521 | Computer Systems Fundamentals | D |
 | COMP2521 | Data Structures & Algorithms | D |
-| COMP2511 | Object-Oriented Design | D |
+| COMP2511 | Object-Oriented Design | C |
 | COMP2041 | Shell & Scripting | C |
 
 ### 📚 Upcoming
